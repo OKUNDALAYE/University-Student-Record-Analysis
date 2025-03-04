@@ -1,6 +1,14 @@
 # ANALYSIS OF UNIVERSITY STUDENT RECORDS
 # TABLE OF CONTENT
 [Introduction](#Introduction)
+[Objectives](#Objectives)
+[TOOLS](#TOOLS)
+[DATA SOURCE](#DATA-SOURCE)
+[Data Collection & Structure](#Data-Collection-&-Structure)
+[Data Quality & Preparation](#Data-Quality-&-Preparation)
+[Data Understanding](#Data-Understanding)
+[Analysis & Query Writing](#Analysis-&-Query-Writing)
+[CONCLUSION](#CONCLUSION)
 
 ## Introduction
 ###### In the education sector, analyzing student records is crucial for understanding academic performance, attendance patterns, and course effectiveness. This data analysis focuses on extracting valuable insights from university student records, including grades, courses, and attendance data.
@@ -40,9 +48,9 @@
  ## Data Quality & Preparation
 ###### •	No duplicate records were included to maintain accuracy.
 ###### •	No missing values in key fields like Student ID, Course ID, and Grades.
-## Data Understanding:
+## Data Understanding
 #### The data analysis process involved several key steps, starting from database creation to data querying for insights. Below is a brief outline of the approach taken:
-#####1. Creating the Database
+##### 1. Creating the Database
 ###### •	Designed a relational database in SQL to store student records.
 ###### •	Used CREATE DATABASE StudentRecords; to initialize the database.
  
