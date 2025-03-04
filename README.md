@@ -1,14 +1,14 @@
 # ANALYSIS OF UNIVERSITY STUDENT RECORDS
 ## TABLE OF CONTENT
-[Introduction](# Introduction)
-[Objectives](# Objectives)
-[TOOLS](# TOOLS)
-[DATA SOURCE](#DATA-SOURCE)
-[Data Collection & Structure](#Data-Collection-&-Structure)
-[Data Quality & Preparation](#Data-Quality-&-Preparation)
-[Data Understanding](#Data-Understanding)
-[Analysis & Query Writing](#Analysis-&-Query-Writing)
-[CONCLUSION](#CONCLUSION)
+- [Introduction](#Introduction)
+- [Objectives](#Objectives)
+- [TOOLS](#TOOLS)
+- [DATA SOURCE](#DATA-SOURCE)
+- [Data Collection & Structure](#Data-Collection-&-Structure)
+- [Data Quality & Preparation](#Data-Quality-&-Preparation)
+- [Data Understanding](#Data-Understanding)
+- [Analysis & Query Writing](#Analysis-&-Query-Writing)
+- [CONCLUSION](#CONCLUSION)
 
 ## Introduction
 ###### In the education sector, analyzing student records is crucial for understanding academic performance, attendance patterns, and course effectiveness. This data analysis focuses on extracting valuable insights from university student records, including grades, courses, and attendance data.
