@@ -1,8 +1,8 @@
 # ANALYSIS OF UNIVERSITY STUDENT RECORDS
-# TABLE OF CONTENT
-[Introduction](#Introduction)
-[Objectives](#Objectives)
-[TOOLS](#TOOLS)
+## TABLE OF CONTENT
+[Introduction](# Introduction)
+[Objectives](# Objectives)
+[TOOLS](# TOOLS)
 [DATA SOURCE](#DATA-SOURCE)
 [Data Collection & Structure](#Data-Collection-&-Structure)
 [Data Quality & Preparation](#Data-Quality-&-Preparation)
