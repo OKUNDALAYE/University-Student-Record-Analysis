@@ -56,12 +56,12 @@
  
  ``sql
 https://github.com/OKUNDALAYE/University-Student-Record-Analysis/blob/main/assets/dataset/document/images/database.png
+
+https://github.com/OKUNDALAYE/University-Student-Record-Analysis/blob/main/assets/dataset/document/images/database2.png
  ```
 
 
-```sql
-https://github.com/OKUNDALAYE/University-Student-Record-Analysis/blob/main/assets/dataset/document/images/database2.png
-```
+
 ##### 2️. Creating Tables
 ##### •	Structured tables to represent key university data:
 ###### o	StudentDetails (StudentID, FirstName, LastName, Major, EnrollmentYear).
