@@ -54,7 +54,12 @@
 ###### •	Designed a relational database in SQL to store student records.
 ###### •	Used CREATE DATABASE StudentRecords; to initialize the database.
  
- 
+ ``sql
+https://github.com/OKUNDALAYE/University-Student-Record-Analysis/blob/main/assets/dataset/document/images/database.png
+ ```
+```sql
+https://github.com/OKUNDALAYE/University-Student-Record-Analysis/blob/main/assets/dataset/document/images/database2.png
+```
 ##### 2️. Creating Tables
 ##### •	Structured tables to represent key university data:
 ###### o	StudentDetails (StudentID, FirstName, LastName, Major, EnrollmentYear).
@@ -64,20 +69,57 @@
 ###### •	Ensured relationships using primary keys and foreign keys for data integrity.
 #### Example Table Creation:
 #### STUDENT TABLE
- 
- 
+ ```sql
+https://github.com/OKUNDALAYE/University-Student-Record-Analysis/blob/main/assets/dataset/document/images/table1.png
+```
+```sql
+https://github.com/OKUNDALAYE/University-Student-Record-Analysis/blob/main/assets/dataset/document/images/table%201b.png
+```
+
+```sql
+https://github.com/OKUNDALAYE/University-Student-Record-Analysis/blob/main/assets/dataset/document/images/tablle%201a.png
+```
  
 #### COURSE TABLE
- 
+```sql
+https://github.com/OKUNDALAYE/University-Student-Record-Analysis/blob/main/assets/dataset/document/images/COURSE.png
+```
+
+```sql
+https://github.com/OKUNDALAYE/University-Student-Record-Analysis/blob/main/assets/dataset/document/images/c%201.png
+```
+
+ ```sql
+https://github.com/OKUNDALAYE/University-Student-Record-Analysis/blob/main/assets/dataset/document/images/c2.png
+```
  
  
 #### GRADE TABLE
- 
+ ```sql
+https://github.com/OKUNDALAYE/University-Student-Record-Analysis/blob/main/assets/dataset/document/images/GRADE.png
+```
+
+```sql
+https://github.com/OKUNDALAYE/University-Student-Record-Analysis/blob/main/assets/dataset/document/images/g2.png
+```
+
+```sql
+https://github.com/OKUNDALAYE/University-Student-Record-Analysis/blob/main/assets/dataset/document/images/g1.png
+```
  
  
 #### ATTENDANCE TABLE
- 
- 
+ ```sql
+https://github.com/OKUNDALAYE/University-Student-Record-Analysis/blob/main/assets/dataset/document/images/ATTENDANCE.png
+```
+
+``sql
+https://github.com/OKUNDALAYE/University-Student-Record-Analysis/blob/main/assets/dataset/document/images/a1.png
+```
+
+```sql
+https://github.com/OKUNDALAYE/University-Student-Record-Analysis/blob/main/assets/dataset/document/images/a2.png
+```
  
 #### INSERTING VALUES INTO THE TABLE
  
