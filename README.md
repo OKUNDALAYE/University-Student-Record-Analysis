@@ -59,9 +59,6 @@ https://github.com/OKUNDALAYE/University-Student-Record-Analysis/blob/main/asset
 
 https://github.com/OKUNDALAYE/University-Student-Record-Analysis/blob/main/assets/dataset/document/images/database2.png
  ```
-
-
-
 ##### 2️. Creating Tables
 ##### •	Structured tables to represent key university data:
 ###### o	StudentDetails (StudentID, FirstName, LastName, Major, EnrollmentYear).
@@ -73,16 +70,9 @@ https://github.com/OKUNDALAYE/University-Student-Record-Analysis/blob/main/asset
 #### STUDENT TABLE
  ```sql
 https://github.com/OKUNDALAYE/University-Student-Record-Analysis/blob/main/assets/dataset/document/images/table1.png
-```
-
-
-```sql
 https://github.com/OKUNDALAYE/University-Student-Record-Analysis/blob/main/assets/dataset/document/images/table%201b.png
-```
-
-
-```sql
 https://github.com/OKUNDALAYE/University-Student-Record-Analysis/blob/main/assets/dataset/document/images/tablle%201a.png
+
 ```
  
 #### COURSE TABLE
