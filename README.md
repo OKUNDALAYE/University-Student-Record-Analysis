@@ -54,7 +54,7 @@
 ###### •	Designed a relational database in SQL to store student records.
 ###### •	Used CREATE DATABASE StudentRecords; to initialize the database.
  
- ``sql
+```sql
 https://github.com/OKUNDALAYE/University-Student-Record-Analysis/blob/main/assets/dataset/document/images/database.png
 
 https://github.com/OKUNDALAYE/University-Student-Record-Analysis/blob/main/assets/dataset/document/images/database2.png
