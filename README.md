@@ -55,10 +55,10 @@
 ###### •	Used CREATE DATABASE StudentRecords; to initialize the database.
  
 ```sql
-https://github.com/OKUNDALAYE/University-Student-Record-Analysis/blob/main/assets/dataset/document/images/database.png
-
-https://github.com/OKUNDALAYE/University-Student-Record-Analysis/blob/main/assets/dataset/document/images/database2.png
- ```
+--Creating database UNIVERSITY STUDENT RECORD
+Create Database StudentRecords;
+use StudentRecords;
+```
 ##### 2️. Creating Tables
 ##### •	Structured tables to represent key university data:
 ###### o	StudentDetails (StudentID, FirstName, LastName, Major, EnrollmentYear).
