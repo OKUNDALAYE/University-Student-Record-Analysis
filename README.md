@@ -69,9 +69,18 @@ use StudentRecords;
 #### Example Table Creation:
 #### STUDENT TABLE
  ```sql
-https://github.com/OKUNDALAYE/University-Student-Record-Analysis/blob/main/assets/dataset/document/images/table1.png
-https://github.com/OKUNDALAYE/University-Student-Record-Analysis/blob/main/assets/dataset/document/images/table%201b.png
-https://github.com/OKUNDALAYE/University-Student-Record-Analysis/blob/main/assets/dataset/document/images/tablle%201a.png
+--Creating Students tables
+Create Table StudentDetails(
+StudentID Varchar(10) PRIMARY KEY,
+FirstName Varchar(20),
+LastName  Varchar(20),
+DateofBirth date,
+Gender Char(10),
+EnrollmentYear int,
+Major Char(50)
+);
+
+Select* from StudentDetails
 ```
  
 #### COURSE TABLE
