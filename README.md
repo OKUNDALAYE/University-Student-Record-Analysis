@@ -85,43 +85,49 @@ Select* from StudentDetails
  
 #### COURSE TABLE
 ```sql
-https://github.com/OKUNDALAYE/University-Student-Record-Analysis/blob/main/assets/dataset/document/images/COURSE.png
-```
+-- Creating Courses Table
+Create Table CoursesDetails(
+CourseID Varchar(20) PRIMARY KEY,
+CourseName VArchar(100),
+Credits int,
+Department Varchar(50)
+)
 
-```sql
-https://github.com/OKUNDALAYE/University-Student-Record-Analysis/blob/main/assets/dataset/document/images/c%201.png
-```
+Select* from CoursesDetails
 
- ```sql
-https://github.com/OKUNDALAYE/University-Student-Record-Analysis/blob/main/assets/dataset/document/images/c2.png
-```
- 
+``` 
  
 #### GRADE TABLE
  ```sql
-https://github.com/OKUNDALAYE/University-Student-Record-Analysis/blob/main/assets/dataset/document/images/GRADE.png
-```
+-- Creating Grades Table
+Create Table GradesDetails(
+GradeID Varchar(10) PRIMARY KEY,
+StudentID Varchar(10),
+CourseID VArchar(10),
+Grade float,
+Semester Varchar (20)
+);
+ALTER TABLE GradesDetails
+ADD CONSTRAINT FK_Grades_Students
+FOREIGN KEY (StudentID) REFERENCES StudentDetails(StudentID);
+ALTER TABLE Grades
+ADD CONSTRAINT FK_Grades_Courses
+FOREIGN Key (CourseID) REFERENCES CoursesDetails(CourseID)
 
-```sql
-https://github.com/OKUNDALAYE/University-Student-Record-Analysis/blob/main/assets/dataset/document/images/g2.png
-```
-
-```sql
-https://github.com/OKUNDALAYE/University-Student-Record-Analysis/blob/main/assets/dataset/document/images/g1.png
-```
- 
+Select* from GradesDetails
+``` 
  
 #### ATTENDANCE TABLE
  ```sql
-https://github.com/OKUNDALAYE/University-Student-Record-Analysis/blob/main/assets/dataset/document/images/ATTENDANCE.png
-```
-
-``sql
-https://github.com/OKUNDALAYE/University-Student-Record-Analysis/blob/main/assets/dataset/document/images/a1.png
-```
-
-```sql
-https://github.com/OKUNDALAYE/University-Student-Record-Analysis/blob/main/assets/dataset/document/images/a2.png
+-- Creating Attendance Table
+Create Table AttendanceDetails(
+AttendanceID Varchar(10) PRIMARY KEY,
+StudentID Varchar(10),
+CourseID VArchar(10),
+Date date,
+Status Varchar (20)
+);
+Select* from AttendanceDetails
 ```
  
 #### INSERTING VALUES INTO THE TABLE
