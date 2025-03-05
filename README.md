@@ -72,7 +72,6 @@ https://github.com/OKUNDALAYE/University-Student-Record-Analysis/blob/main/asset
 https://github.com/OKUNDALAYE/University-Student-Record-Analysis/blob/main/assets/dataset/document/images/table1.png
 https://github.com/OKUNDALAYE/University-Student-Record-Analysis/blob/main/assets/dataset/document/images/table%201b.png
 https://github.com/OKUNDALAYE/University-Student-Record-Analysis/blob/main/assets/dataset/document/images/tablle%201a.png
-
 ```
  
 #### COURSE TABLE
