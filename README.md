@@ -149,8 +149,7 @@ VALUES
 
 Select* from StudentDetails
 ```
-![image](University-Student-Record-Analysis/assets/dataset/document/images
-/S V 1b.png)
+![image](https://github.com/OKUNDALAYE/University-Student-Record-Analysis/blob/main/assets/dataset/document/images/S%20V%201b.png)
 
 ```sql
 -- ADDING DATA INTO COURSE TABLE
