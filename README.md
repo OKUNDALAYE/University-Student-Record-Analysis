@@ -149,6 +149,9 @@ VALUES
 
 Select* from StudentDetails
 ```
+![image](University-Student-Record-Analysis/assets/dataset/document/images
+/S V 1b.png)
+
 ```sql
 -- ADDING DATA INTO COURSE TABLE
 INSERT INTO CoursesDetails(
