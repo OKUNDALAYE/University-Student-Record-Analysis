@@ -59,6 +59,7 @@
 Create Database StudentRecords;
 use StudentRecords;
 ```
+![image](https://github.com/OKUNDALAYE/University-Student-Record-Analysis/blob/main/assets/dataset/document/images/database2.png)
 ##### 2️. Creating Tables
 ##### •	Structured tables to represent key university data:
 ###### o	StudentDetails (StudentID, FirstName, LastName, Major, EnrollmentYear).
@@ -82,7 +83,8 @@ Major Char(50)
 
 Select* from StudentDetails
 ```
- 
+![image](https://github.com/OKUNDALAYE/University-Student-Record-Analysis/blob/main/assets/dataset/document/images/table%201b.png)
+![image](https://github.com/OKUNDALAYE/University-Student-Record-Analysis/blob/main/assets/dataset/document/images/tablle%201a.png)
 #### COURSE TABLE
 ```sql
 -- Creating Courses Table
@@ -96,7 +98,8 @@ Department Varchar(50)
 Select* from CoursesDetails
 
 ``` 
- 
+ ![image](https://github.com/OKUNDALAYE/University-Student-Record-Analysis/blob/main/assets/dataset/document/images/c%201.png)
+ ![image](https://github.com/OKUNDALAYE/University-Student-Record-Analysis/blob/main/assets/dataset/document/images/c2.png)
 #### GRADE TABLE
  ```sql
 -- Creating Grades Table
@@ -116,7 +119,8 @@ FOREIGN Key (CourseID) REFERENCES CoursesDetails(CourseID)
 
 Select* from GradesDetails
 ``` 
- 
+ ![image](https://github.com/OKUNDALAYE/University-Student-Record-Analysis/blob/main/assets/dataset/document/images/g2.png)
+ ![image](https://github.com/OKUNDALAYE/University-Student-Record-Analysis/blob/main/assets/dataset/document/images/g1.png)
 #### ATTENDANCE TABLE
  ```sql
 -- Creating Attendance Table
@@ -129,7 +133,8 @@ Status Varchar (20)
 );
 Select* from AttendanceDetails
 ```
- 
+ ![image](https://github.com/OKUNDALAYE/University-Student-Record-Analysis/blob/main/assets/dataset/document/images/a1.png)
+ ![image](https://github.com/OKUNDALAYE/University-Student-Record-Analysis/blob/main/assets/dataset/document/images/a2.png)
 #### INSERTING VALUES INTO THE TABLE
 ```sql
 --ADDING DATA TO THE STUDENT TABLES
@@ -150,6 +155,7 @@ VALUES
 Select* from StudentDetails
 ```
 ![image](https://github.com/OKUNDALAYE/University-Student-Record-Analysis/blob/main/assets/dataset/document/images/S%20V%201b.png)
+![image](
 
 ```sql
 -- ADDING DATA INTO COURSE TABLE
